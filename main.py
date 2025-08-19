@@ -61,7 +61,7 @@ async def bot_handler(event):
     global is_creating_bot, temp_bot_name, temp_bot_username, temp_event_to_reply
 
     if event.sender_id != your_user_id:
-        await event.reply("عزيزي المستخدم لتستخدم البوت لان ما يستجيبلك 😉🤖 فقط الادمن راسل @altaee_z لصناعة بوت مماثل 🌸 www.ali-Altaee.free.nf")
+        await event.reply("عزيزي المستخدم لتستخدم البوت لان ما يستجيبلك 😉🤖 فقط الادمن راسل @altaee_z لصناعة بوت مماثل 🌸 www.ali-Altaee.free.nf 🌐")
         return
 
     message_text = event.raw_text.strip()
