@@ -40,7 +40,7 @@ async def start_user_client():
             await user_client.start()
             
             me = await user_client.get_me()
-            print(f"✅ تم تسجيل الدخول بنجاح إلى الحساب الشخصي: {utils.get_display_name(me)}")
+            print(f"✅ تم تسجيل 7 الدخول بنجاح إلى الحساب الشخصي: {utils.get_display_name(me)}")
             await bot_client.send_message(your_user_id, 
                                           f"✅ تم تسجيل الدخول بنجاح إلى حسابك: **{utils.get_display_name(me)}**\n"
                                           "يمكنك الآن إرسال أوامر التحكم.\n"
